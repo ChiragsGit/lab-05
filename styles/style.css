@@ -1,0 +1,72 @@
+@import url(./reset.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Raleway&display=swap');
+
+body {
+    font-family: 'Mukta', sans-serif;
+}
+
+img {
+    width: 300px;
+}
+
+header h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 58px;
+    color: rgb(32, 129, 255);
+    padding: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section h2 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 40px;
+    padding: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+figure {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    padding: 5px;
+    margin: left;
+    float: left;
+    flex-direction: column;
+}
+
+body section p1, p3 {
+    background: rgb(32, 129, 255);
+    align-items: left;
+    margin: left;
+    display: flex;
+    flex-direction: column;
+    padding: 1.2em;
+}
+
+body section p2 {
+    color: rgb(255, 0, 0);
+    align-items: left;
+    margin: left;
+    display: flex;
+    flex-direction: column;
+    padding: 1.2em;
+}
+
+figure  {
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 10px;
+   
+}
+
+div  {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
